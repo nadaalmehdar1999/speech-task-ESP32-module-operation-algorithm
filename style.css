@@ -1,0 +1,42 @@
+body {
+  background: #EBDDE2	;
+  color:#7F525D	;	
+  font-size: 18px;
+}
+
+
+button:focus {
+    outline: 0;
+}
+
+.mycontainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 150px 100px;
+    text-align: center;
+}
+
+
+.mywebapp {
+    margin: 50px auto;
+}
+
+#textbox {
+    margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .mycontainer {
+    width: 85vw;
+    max-width: 85vw;
+  }
+
+    button {
+        margin-bottom: 10px;
+}
+
+ hr{
+        margin-bottom: 10px;
+}
+
+
